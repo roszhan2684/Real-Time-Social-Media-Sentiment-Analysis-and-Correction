@@ -64,6 +64,13 @@ This project aims to analyze TikTok videos in real-time to classify sentiment (p
 5. View Results in Kibana:
    Ensure Elasticsearch and Kibana are running. Visualize data through pre-configured dashboards.
 
+
+   step 1: run DATA.py
+   step 2: run HDFS.py                  this is when you get real time data and to process it.
+   step 3: run spark_streaming.py
+
+   step 1: run FINAL.py                  this is when you have the data in local system ( no live data )
+
 ## Results
 
 - Sentiment classification for TikTok videos.
